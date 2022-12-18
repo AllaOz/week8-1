@@ -1,0 +1,192 @@
+
+
+@font-face {
+font-family: Intro;
+src: url('path/filename.eot');
+src: url('path/filename.eot?#iefix') format('embedded-opentype'),
+url('path/filename.woff2') format('woff2'),
+url('path/filename.woff') format('woff'),
+url('path/filename.ttf') format('truetype');}
+
+.wrapper{
+width: 100vw;
+height: auto;
+}
+.container{
+    width: 100vw;
+    height: 700px;
+    background-image: url(/images/main-bg.png);
+    padding-left: 7%;
+    padding-bottom: 7%;
+    } 
+    .container__cta{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    }
+.header{
+width: 90%;
+height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 50px;
+margin-top: 30px;
+}
+.header__logo{
+width: 17%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;    
+}
+.header__logo_purple{
+width: 28px;
+height: 28px;
+background-color:#5222D0;
+border-radius: 50%;
+margin-top: -10px;
+}
+.header__logo_red{
+width: 28px;
+height: 28px;
+background-color:#EC615B;
+border-radius: 50%;
+z-index: 1;
+margin-left:-30px;
+margin-top: 5px;
+}
+.header button,
+.container__cta button,
+.features__subscribe-btn {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background: #5222D0;
+border-radius: 100px; 
+color: #FFFFFF;
+text-transform: uppercase;
+cursor: pointer;}
+
+.header button,
+.features__subscribe,
+.features__subscribe-btn {
+height: 48px;
+width: 135px;
+background: #5222D0;
+border-radius: 100px; 
+font-weight: 700;
+font-size: 14px;
+line-height: 13px;
+gap: 5px;
+}
+.header__cart-button_cart-img{
+width: 20px;
+height: 20px;
+color: #FFFFFF;
+padding-bottom: 5px;}
+.container__cta h1,
+.features h1{
+font-family: 'Intro', sans-serif;
+font-weight: bold;
+font-size: 60px;
+line-height: 120%;
+color: #000000;
+text-transform: uppercase;
+} 
+.container__cta p,
+.features__card p,
+.footer__nav-menu {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 1.5em;
+line-height: 160%;
+text-align: left;
+}
+.container__cta button{
+width: 270px;
+height: 84px;
+border-radius: 100px;
+font-size: 35px;
+line-height: 35px;
+margin-top: 55px;
+gap: 10px;
+}
+.features {
+width: 100vw;
+height: 500px;
+margin-top: 50px;
+}
+.features__elements{
+width: 100vw;
+height: 400px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+.features__card{
+width: 31%;
+height: 600px;
+display: flex;
+flex-direction: column;
+}
+.features__card_nowires
+{
+width: 380px;
+height: 200px;
+background-color: rgb(235,97,90);
+padding-bottom: 20px;
+
+}
+.features__card h2
+{
+font-family: 'Intro ', sans-serif;
+font-style: bold;
+font-weight: 700;
+font-size: 30px;
+line-height: 120%;
+color: #000000;
+text-transform: uppercase;
+margin-top: 70px;
+}
+.features__card_images{
+margin-left: 10%;
+}
+.features h1{
+margin-left: 100px;
+}
+.features__card .email{
+width: 80%;
+height: 40px;
+}
+.features-subscribe{
+width: 380px;
+height: 300px;
+background-color: rgb(235,97,90);
+margin-top: 20px;
+padding-left: 20px;
+}
+.features__subscribe-btn {
+margin-top: 20px;
+}
+.menu li{
+display: inline-block;   
+}
+
+.footer__nav-menu{
+width: 100%;
+height: 50px;
+margin-top: 50px;
+margin-left: 50px;
+}
+.footer__nav-menu a{
+text-decoration: none;
+margin-right: 20px;
+color: #6C6C6C;
+}
+.footer__nav-menu a:hover{
+color: #2f13ac;
+}
