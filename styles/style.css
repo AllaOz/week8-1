@@ -15,7 +15,7 @@ height: auto;
 .container{
     width: 100vw;
     height: 700px;
-    background-image: url(/images/main-bg.png);
+    background-image: url(../images/main-bg.png);
     padding-left: 7%;
     padding-bottom: 7%;
     } 
